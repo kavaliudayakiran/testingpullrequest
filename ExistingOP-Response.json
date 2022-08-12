@@ -1,0 +1,29 @@
+{
+  "openPay": {
+    "billingAccountAbn": "string",
+    "billingAccountId": "24354657685656",
+    "billingAccountName": "string",
+    "createdAt": "1539739131000",
+    "orderId": "123456",
+    "paymentMethod": "string",
+    "transactionId": "123456"
+  },
+  "paymentToken": "string",
+  "paymentTransactionRef": "1000000000589327",
+  "status": {
+    "auditID": "45667fgh7WE",
+    "error": {
+      "context": "string",
+      "correction": "string",
+      "description": "string"
+    },
+    "esResponse": {
+      "code": "string",
+      "text": "string"
+    },
+    "messageId": "string",
+    "responseCode": "ACCEPTED",
+    "responseText": "00",
+    "txnTime": "2022-03-10T23:58:36.326Z"
+  }
+}
