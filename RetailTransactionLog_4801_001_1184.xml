@@ -1,0 +1,366 @@
+<POSLog xmlns:r10Ex="http://www.Retalix.com/Extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" FixVersion="1" MajorVersion="6" MinorVersion="0" xmlns="http://www.nrf-arts.org/IXRetail/namespace/">
+  <Transaction MajorVersion="6" MinorVersion="0" FixVersion="1">
+    <BusinessUnit>
+      <UnitID Name="Store 4801" SalesOrganization="SO1005">4801</UnitID>
+    </BusinessUnit>
+    <WorkstationID TypeCode="POS" WorkstationLocation="2">001</WorkstationID>
+    <SequenceNumber>1184</SequenceNumber>
+    <TransactionID>G9CLH7Z6RX</TransactionID>
+    <OperatorID OperatorName="StoreMgr 3" WorkerID="4d74ea41-30c1-4e16-a3bb-71e5818a9d39" OperatorType="X:StoreManagement">3</OperatorID>
+    <ReceiptImage r10Ex:ReceiptKind="MainReceipt" r10Ex:ReceiptFormat="RDR" r10Ex:ReceiptNotPrinted="false">
+      <ReceiptLine>&lt;OPOSPrint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Documents NumOfDocuments="1" Device="IBM" CodePage="437"&gt;&lt;Document CodePage="437"&gt;&lt;PrintSection Layout="Portrait" SectionID="1"&gt;&lt;PrintCommand Command="PrintStoredBitmap" CmdData="1" /&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="Store 4801"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;Text Text="  "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="PH: "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="02 8885 3170"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="1 Woolworths way"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="            TAX INVOICE - ABN 11 222 333 444            "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;/PrintSection&gt;&lt;PrintSection Layout="Portrait" SectionID="Reprint" /&gt;&lt;PrintSection Layout="Portrait" SectionID="2"&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="                                                     "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="$  "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text=" "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="Test Item  6 - Long Description 40 chars"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="     "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="     1.69"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="     1"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text=" "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="SUBTOTAL          "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="                   "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="      $1.69"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="       "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="TOTAL             "&gt;&lt;PrintAttributes DoubleHeight="true" /&gt;&lt;/Text&gt;&lt;Text Text="                   "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="      $1.69"&gt;&lt;PrintAttributes DoubleHeight="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="       "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="On Account                  "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="          "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="     $1.69"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="       "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="Change            "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="                    "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="     $0.00"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="PAYMENT DETAILS"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="Card/ Voucher No.:                   11111111111     "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="Customer Account No.:           123456789012345678901"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="Business Account Name.:      Woolworths Group Limited"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="Openpay Transaction Id.:           TXN100000123456789"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="56" /&gt;&lt;Text Text="Order Reference: 13fee78b-6dfa-4b5f-a45e-12d4c01ce780"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="----------------- WOOLWORTHS REWARDS -----------------"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="You could have earned at least 2 points"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="Save money on your shopping!"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="Join Woolworths Rewards for FREE"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="at woolworthsrewards.com.au"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="------------------------------------------------------"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="          Thank you for shopping with us          "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="STORE "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="4801"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text=" POS "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="001"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text=" TRANS "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="1184"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text=" "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="11:55"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text=" "&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;Text Text="18/06/2020"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;BarcodeObject ID="62948010011184180620" BarcodeType="Code128" Height="100" Width="1" Align="Center" OutputOptions="All" /&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="62948010011184180620"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;/PrintSection&gt;&lt;PrintSection Layout="Portrait" SectionID="FeedAndCut"&gt;&lt;PrintCommand Command="FeedPaper" CmdData="6" /&gt;&lt;PrintCommand Command="CutPaper" CmdData="50" /&gt;&lt;PrintCommand Command="FeedPaper" CmdData="1" /&gt;&lt;/PrintSection&gt;&lt;/Document&gt;&lt;/Documents&gt;&lt;/OPOSPrint&gt;</ReceiptLine>
+      <ReceiptDelivery xmlns="http://www.Retalix.com/Extensions">
+        <Channel Type="Printer" />
+      </ReceiptDelivery>
+    </ReceiptImage>
+    <ReceiptImage r10Ex:ReceiptKind="Coupon" r10Ex:ReceiptFormat="RDR" r10Ex:ReceiptNotPrinted="false">
+      <ReceiptLine>&lt;OPOSPrint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Documents NumOfDocuments="1" Device="IBM" CodePage="437"&gt;&lt;Document CodePage="437"&gt;&lt;PrintSection Layout="Portrait" SectionID="1"&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="BWS RECEIPT REWARDS - BUY 1 GET 1 FREE"&gt;&lt;PrintAttributes Bold="true" /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="On PALLADIUM REGIONAL SEM SAUV BLANC OR SHIRAZ 750ML"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="Present coupon at a BWS* store. Expires 31-DEC-2017"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Left" CPL="42" /&gt;&lt;Text Text=""&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="*Over 18's only. No further discounts apply."&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="56" /&gt;&lt;Text Text="Store (incl exclusions), full T&amp;amp;C's at bws.com.au/rr"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;BarcodeObject ID="9300633292294" BarcodeType="EAN13" Height="100" Width="1" Align="Center" OutputOptions="All" /&gt;&lt;TextObject OutputOptions="All"&gt;&lt;TextLine&gt;&lt;LinePrintAttributes Align="Center" CPL="42" /&gt;&lt;Text Text="9300633292294"&gt;&lt;PrintAttributes /&gt;&lt;/Text&gt;&lt;/TextLine&gt;&lt;/TextObject&gt;&lt;/PrintSection&gt;&lt;PrintSection Layout="Portrait" SectionID="FeedAndCut"&gt;&lt;PrintCommand Command="FeedPaper" CmdData="6" /&gt;&lt;PrintCommand Command="CutPaper" CmdData="50" /&gt;&lt;PrintCommand Command="FeedPaper" CmdData="1" /&gt;&lt;/PrintSection&gt;&lt;/Document&gt;&lt;/Documents&gt;&lt;/OPOSPrint&gt;</ReceiptLine>
+    </ReceiptImage>
+    <RetailTransaction>
+      <LineItem EntryMethod="Keyed">
+        <Sale>
+          <POSIdentity>
+            <POSItemID>16</POSItemID>
+          </POSIdentity>
+          <MerchandiseHierarchy ID="Merchandise">409</MerchandiseHierarchy>
+          <MerchandiseHierarchy ID="ItemHierarchy-1005">ALL DEPARTMENTS</MerchandiseHierarchy>
+          <MerchandiseHierarchy ID="ItemHierarchy-1060">ALL DEPARTMENTS</MerchandiseHierarchy>
+          <MerchandiseHierarchy ID="ItemHierarchy-2010">ALL DEPARTMENTS</MerchandiseHierarchy>
+          <MerchandiseHierarchy ID="ItemHierarchy-1020">70</MerchandiseHierarchy>
+          <ItemID>6</ItemID>
+          <Description r10Ex:Culture="en-AU">Test Item 6</Description>
+          <Description TypeCode="Long" r10Ex:Culture="en-AU">Test Item  6 - Long Description 40 chars</Description>
+          <RegularSalesUnitPrice Currency="AUD">1.69</RegularSalesUnitPrice>
+          <ActualSalesUnitPrice Currency="AUD">1.69</ActualSalesUnitPrice>
+          <ExtendedAmount Currency="AUD">1.69</ExtendedAmount>
+          <Quantity Units="1" UnitOfMeasureCode="EA" EntryMethod="Automatic">1</Quantity>
+          <Tax r10Ex:Sign="" r10Ex:Imposition="AU0" r10Ex:AmountBeforeRounding="0.00" r10Ex:TaxableAmountBeforeRounding="1.69">
+            <SequenceNumber>1</SequenceNumber>
+            <TaxAuthority>Australia Tax Authority</TaxAuthority>
+            <TaxableAmount Currency="AUD" TaxIncludedInTaxableAmountFlag="true">1.69</TaxableAmount>
+            <Amount Currency="AUD">0.00</Amount>
+            <Percent>0.0000</Percent>
+            <TaxRuleID>AU0</TaxRuleID>
+            <TaxGroupID>AUSTaxAuthority</TaxGroupID>
+            <TaxPerUnits xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+              <TaxPerUnit SequenceNumber="1">
+                <TaxableAmount Currency="AUD">1.69</TaxableAmount>
+                <TaxAmount Currency="AUD">0.00</TaxAmount>
+                <ExemptTaxAmount Currency="AUD">0</ExemptTaxAmount>
+              </TaxPerUnit>
+            </TaxPerUnits>
+            <r10Ex:ProratedDiscount Currency="AUD">0.00</r10Ex:ProratedDiscount>
+            <r10Ex:SellPrice Currency="AUD">1.69</r10Ex:SellPrice>
+          </Tax>
+          <ConsumableGroup xmlns="http://www.Retalix.com/Extensions">
+            <Type>Consumable</Type>
+            <ID>18</ID>
+          </ConsumableGroup>
+          <ConsumableGroup xmlns="http://www.Retalix.com/Extensions">
+            <Type>Consumable</Type>
+            <ID>AU0</ID>
+          </ConsumableGroup>
+          <PromotionDeferredRewards xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+            <Type>Member Account</Type>
+            <Value>1.02</Value>
+            <PromotionID>1001514</PromotionID>
+            <Description>EVOLVE BASE ROUNDING</Description>
+            <LineItemRewardPromotion>
+              <TriggerQuantity>1</TriggerQuantity>
+              <TriggerAmount>1.69</TriggerAmount>
+              <ApportionmentAmount Currency="AUD" Participator="Retailer">1.02</ApportionmentAmount>
+              <RewardSplitAmount Currency="AUD">0</RewardSplitAmount>
+              <RewardLevel>1</RewardLevel>
+            </LineItemRewardPromotion>
+            <SequenceNumber>1</SequenceNumber>
+            <DeferredID>2000</DeferredID>
+          </PromotionDeferredRewards>
+          <PromotionDeferredRewards xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+            <Type>Member Account</Type>
+            <Value>1.69</Value>
+            <PromotionID>1001515</PromotionID>
+            <Description>EVOLVE BASE EARN</Description>
+            <LineItemRewardPromotion>
+              <TriggerQuantity>1</TriggerQuantity>
+              <TriggerAmount>1.69</TriggerAmount>
+              <ApportionmentAmount Currency="AUD" Participator="Retailer">1.69</ApportionmentAmount>
+              <RewardSplitAmount Currency="AUD">0</RewardSplitAmount>
+              <RewardLevel>1</RewardLevel>
+            </LineItemRewardPromotion>
+            <SequenceNumber>2</SequenceNumber>
+            <DeferredID>2000</DeferredID>
+          </PromotionDeferredRewards>
+          <PromotionDeferredRewards xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+            <Type>Coupon</Type>
+            <Value>0</Value>
+            <PromotionID>90</PromotionID>
+            <Description>Docket deals (BWS)</Description>
+            <LineItemRewardPromotion>
+              <TriggerQuantity>1</TriggerQuantity>
+              <TriggerAmount>0</TriggerAmount>
+              <ApportionmentAmount Currency="AUD">0</ApportionmentAmount>
+              <RewardSplitAmount Currency="AUD">0</RewardSplitAmount>
+              <RewardLevel>1</RewardLevel>
+            </LineItemRewardPromotion>
+            <SequenceNumber>3</SequenceNumber>
+            <DeferredID />
+          </PromotionDeferredRewards>
+        </Sale>
+        <ScanData>6</ScanData>
+        <SequenceNumber>1</SequenceNumber>
+        <BeginDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:20.178</BeginDateTime>
+        <EndDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:20.178</EndDateTime>
+      </LineItem>
+      <LineItem EntryMethod="Scanned">
+        <Tender TenderType="CreditDebit">
+          <Amount Currency="AUD">1.69</Amount>
+          <Cashback Currency="AUD">0</Cashback>
+          <Authorization SignatureRequiredFlag="false" VerifiedByPINFlag="false" r10Ex:VerifiedByPINStatus="NotVerified">
+            <RequestedAmount Currency="AUD">1.69</RequestedAmount>
+            <AuthorizationCode>Success</AuthorizationCode>
+            <ReferenceNumber>13fee78b-6dfa-4b5f-a45e-12d4c01ce780</ReferenceNumber>
+            <AuthorizationDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:20.116</AuthorizationDateTime>
+            <ReceiptText>Card/ Voucher No.:                   11111111111     
+Customer Account No.:           123456789012345678901
+Business Account Name.:      Woolworths Group Limited
+Openpay Transaction Id.:           TXN100000123456789
+Order Reference: 13fee78b-6dfa-4b5f-a45e-12d4c01ce780</ReceiptText>
+            <r10Ex:ProviderData>
+              <r10Ex:Status>
+                <r10Ex:ResponseText>ACCEPTED</r10Ex:ResponseText>
+                <r10Ex:ResponseCode>00</r10Ex:ResponseCode>
+                <r10Ex:AuditID>zKBDFagBeZBP7</r10Ex:AuditID>
+                <r10Ex:MessageId>13fee78b-6dfa-4b5f-a45e-12d4c01ce780</r10Ex:MessageId>
+                <r10Ex:Error />
+                <r10Ex:EsResponse />
+              </r10Ex:Status>
+              <r10Ex:OpenPay>
+                <r10Ex:OrderId>100012</r10Ex:OrderId>
+                <r10Ex:OrderedAt>2020-06-18T11:55:38.507</r10Ex:OrderedAt>
+                <r10Ex:TransactionId>TXN100000123456789</r10Ex:TransactionId>
+                <r10Ex:PaymentCode>11111111111     </r10Ex:PaymentCode>
+                <r10Ex:MerchantReferenceId>4801001118499001592445338503</r10Ex:MerchantReferenceId>
+                <r10Ex:Channel>In Store</r10Ex:Channel>
+                <r10Ex:TransactionType>PURCHASE</r10Ex:TransactionType>
+                <r10Ex:PaymentMethod>signatoryId</r10Ex:PaymentMethod>
+                <r10Ex:BillingAccountId>123456789012345678901</r10Ex:BillingAccountId>
+                <r10Ex:BillingAccountName>Woolworths Group Limited</r10Ex:BillingAccountName>
+                <r10Ex:BillingAccountABN>88000014675</r10Ex:BillingAccountABN>
+              </r10Ex:OpenPay>
+              <r10Ex:PaymentTransactionRef>1000000000589327</r10Ex:PaymentTransactionRef>
+            </r10Ex:ProviderData>
+            <r10Ex:CardId>On Account</r10Ex:CardId>
+            <r10Ex:CardType>On Account</r10Ex:CardType>
+            <r10Ex:AuthorizationType>Online</r10Ex:AuthorizationType>
+            <ExtendedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions" />
+          </Authorization>
+          <TenderID>90</TenderID>
+          <r10Ex:TenderDescription>On Account</r10Ex:TenderDescription>
+          <r10Ex:IsAutoReconcile>True</r10Ex:IsAutoReconcile>
+        </Tender>
+        <SequenceNumber>2</SequenceNumber>
+        <BeginDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:44.889</BeginDateTime>
+        <EndDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:44.889</EndDateTime>
+      </LineItem>
+      <LineItem>
+        <Tax r10Ex:Imposition="AU0">
+          <SequenceNumber>1</SequenceNumber>
+          <TaxAuthority>Australia Tax Authority</TaxAuthority>
+          <TaxableAmount Currency="AUD" TaxIncludedInTaxableAmountFlag="true">1.69</TaxableAmount>
+          <Amount Currency="AUD">0.00</Amount>
+          <Percent>0.0000</Percent>
+          <TaxRuleID>AU0</TaxRuleID>
+          <TaxGroupID>AUSTaxAuthority</TaxGroupID>
+          <r10Ex:TaxLiable Currency="AUD">1.69</r10Ex:TaxLiable>
+        </Tax>
+        <SequenceNumber>3</SequenceNumber>
+      </LineItem>
+      <Total CurrencyCode="AUD">1.69</Total>
+      <Total TotalType="TransactionNetAmount" CurrencyCode="AUD">1.69</Total>
+      <Total TotalType="TransactionPurchaseQuantity">1</Total>
+      <Total TotalType="TransactionPurchaseQuantity" TypeCode="Return">0</Total>
+      <Total TotalType="X:TransactionTaxIncluded" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:TransactionTaxSurcharge" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:TransactionTaxFee" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:ItemTaxFee" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="TransactionTotalSavings" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="TransactionGrandAmount" CurrencyCode="AUD">1.69</Total>
+      <Total TotalType="X:TransactionTotalVoidAmount" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:TransactionTotalReturnAmount" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="TransactionTaxExemptAmount" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="TransactionTenderApplied" CurrencyCode="AUD">1.69</Total>
+      <Total TotalType="X:CashbackTotalAmount" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:TransactionMerchandiseAmount" CurrencyCode="AUD">1.69</Total>
+      <Total TotalType="X:TransactionNonMerchandiseAmount" CurrencyCode="AUD">0.00</Total>
+      <Total TotalType="X:NonResettableGrandTotal" CurrencyCode="AUD">1370.16</Total>
+      <Total TotalType="X:PreviousNonResettableGrandTotal" CurrencyCode="AUD">1341.57</Total>
+      <Total TotalType="X:TransactionLoyaltySavings" CurrencyCode="AUD">0</Total>
+      <Customer r10Ex:IsAuthenticatedOffline="False" r10Ex:IsAnonymous="True" r10Ex:RetroactiveProcessActivate="True">
+        <Name />
+        <r10Ex:CustomerType>Anonymous</r10Ex:CustomerType>
+      </Customer>
+      <LoyaltyAccount>
+        <LoyaltyProgram>
+          <LoyaltyAccountID Description="Loyalty">2000</LoyaltyAccountID>
+          <Points Type="X:OpenBalance">0</Points>
+          <Points Type="Balance">0.00</Points>
+          <Points Type="Redeemed">2.71</Points>
+          <Points Type="PointsEarned">2.71</Points>
+        </LoyaltyProgram>
+        <LoyaltyProgram>
+          <LoyaltyAccountID Description="Loyalty">1999</LoyaltyAccountID>
+          <Points Type="X:OpenBalance">0</Points>
+          <Points Type="Balance">2</Points>
+          <Points Type="PointsEarned">2</Points>
+        </LoyaltyProgram>
+      </LoyaltyAccount>
+      <TaxDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+        <TaxAuthority>
+          <AuthorityId>AUSTaxAuthority</AuthorityId>
+          <Descriptions>
+            <Description Culture="en-AU">Australia Tax Authority</Description>
+          </Descriptions>
+        </TaxAuthority>
+        <TaxRate>
+          <RateId>AU0</RateId>
+          <Type>Tax</Type>
+          <AuthorityId>AUSTaxAuthority</AuthorityId>
+          <Descriptions>
+            <Description Culture="en-AU">AUS Tax Free</Description>
+          </Descriptions>
+          <IsIncluded>true</IsIncluded>
+          <TaxCalculatedMethodPercent>
+            <Value>0.0000</Value>
+            <ImpositionId>AU0</ImpositionId>
+          </TaxCalculatedMethodPercent>
+          <RoundingType>Standard</RoundingType>
+          <CouponReducesTaxationAmount>false</CouponReducesTaxationAmount>
+        </TaxRate>
+      </TaxDefinitions>
+      <RefundablePromotions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+        <RefundPromotions>H4sIAAAAAAAEAO1YbW/aMBD+K4jvxUlf2EBuJETZVK2sCNC0r1ZyFGuJndnOgH8/O+8kZGgdYrTKp5zvrLvz3T2PreCZ4AFXlDPp4EcFgf7MQEgq1RxWEfNyuzZ7jm1Z9p19i5GW8WfBo1ALHzDKRDzmzKOpuz0/ucHBy10IziIE5mEUy8bzYjb5+pD4ncPPiArwnpkLzor4EjDa0+GxoAoEJdUYiTqPoXP3Ilc9luPY/STIF9gV9iujNRqMmhyiIuaUMhpEwXItQK657zkWRjUdzsVRGPoU5JI7I7YzJdbZ1G14THw38omCZ+bvPumq11ympTi+EX8jfgSyg2rnKZrw5+YoLqDcHLPON524S9VgVtGg2KTbY/1Ddzphf8iof99VIoJuZxv4TA7D/n13rVQ4RGiz2fQ2Nz0uXtC1nm70ffq0cNcQkCvKpCL6JF1TyAtvJyoDbw4bIrwqAhNtBg1OmZJZ1ZO8vbIPqQRlLxks0xVGB3Ym2TnYA5cGxHfsnnWNUbbCKLPPBKxATLlUk60Gv6S/ICGctBCNdvxEA6oeqHR5xBR4sXZsZDMrzUY8cmOlnibdWb21WFcKmZUG5ZWLvZJDRFZY0lLG54u1WTmnZBsrHVsTQyabwYylEw0kaswK7SWPmuj8KM3ftTT/Fmi+QJ7Vs+xDyGsvgfYSOPMl0DSKb+oSeDV13t7sU+fH11BnmmgJFKkm32ifGIT1iEnJMiSm9qtE24KxGPeDD55KEroXznJN5ZK6P0BNiGAaTbVUza6WsN/PjPwXwj5AFH9D3hf3fLcHg8GZmLvyb8M8glvqfn+wPP5Sadm7HZOzsreJVRvOS2Pi072hUZoTKv2B/g0BO9thjhYAAA==</RefundPromotions>
+      </RefundablePromotions>
+      <r10Ex:VenueShift>
+        <r10Ex:Description r10Ex:Culture="en-AU">Unknown</r10Ex:Description>
+      </r10Ex:VenueShift>
+      <r10Ex:Forms />
+      <PromotionsSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.Retalix.com/Extensions">
+        <PromotionSummary>
+          <PromotionID>1001514</PromotionID>
+          <RedemptionQuantity>1</RedemptionQuantity>
+          <TotalRewardAmount Currency="AUD">1.02</TotalRewardAmount>
+          <LoyaltyAccount>
+            <LoyaltyProgram>
+              <LoyaltyAccountID>2000</LoyaltyAccountID>
+              <Points Type="PointsEarned">1.02</Points>
+            </LoyaltyProgram>
+          </LoyaltyAccount>
+          <RewardType>Points</RewardType>
+          <PromotionDescription>EVOLVE BASE ROUNDING</PromotionDescription>
+          <QualifyingSpent>1.69</QualifyingSpent>
+          <TriggerTiming>UponTotal</TriggerTiming>
+        </PromotionSummary>
+        <PromotionSummary>
+          <PromotionID>1001515</PromotionID>
+          <RedemptionQuantity>169</RedemptionQuantity>
+          <TotalRewardAmount Currency="AUD">1.69</TotalRewardAmount>
+          <LoyaltyAccount>
+            <LoyaltyProgram>
+              <LoyaltyAccountID>2000</LoyaltyAccountID>
+              <Points Type="PointsEarned">1.69</Points>
+            </LoyaltyProgram>
+          </LoyaltyAccount>
+          <RewardType>Points</RewardType>
+          <PromotionDescription>EVOLVE BASE EARN</PromotionDescription>
+          <QualifyingSpent>1.69</QualifyingSpent>
+          <TriggerTiming>UponTotal</TriggerTiming>
+        </PromotionSummary>
+        <PromotionSummary>
+          <PromotionID>90</PromotionID>
+          <RedemptionQuantity>1</RedemptionQuantity>
+          <TotalRewardAmount Currency="AUD">0.00</TotalRewardAmount>
+          <IssuedCoupons>
+            <IssuesCoupon r10Ex:IsUnique="False" r10Ex:DataPatternId="" Identifier="61c8cdf9-378c-495b-8b18-7ccb56791fe1" StartDate="2020-06-18" ExpiryDate="2022-06-18">
+              <Description>
+			
+				&lt;FormattedLayout xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns=&amp;quot;http://retalix.com/R10/services&amp;quot;&gt;
+					&lt;Lines&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement Bold=&amp;quot;true&amp;quot; FontSize=&amp;quot;Small&amp;quot;&gt;BWS RECEIPT REWARDS - BUY 1 GET 1 FREE&lt;/TextElement&gt;
+						&lt;/Line&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement FontSize=&amp;quot;Small&amp;quot;&gt;On PALLADIUM REGIONAL SEM SAUV BLANC OR SHIRAZ 750ML&lt;/TextElement&gt;
+						&lt;/Line&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement FontSize=&amp;quot;Small&amp;quot;&gt;Present coupon at a BWS* store. Expires 31-DEC-2017&lt;/TextElement&gt;
+						&lt;/Line&gt;
+						&lt;Line /&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement FontSize=&amp;quot;Small&amp;quot;&gt;*Over 18's only. No further discounts apply.&lt;/TextElement&gt;
+						&lt;/Line&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement FontSize=&amp;quot;Small&amp;quot;&gt;Store (incl exclusions), full T&amp;amp;C's at bws.com.au/rr&lt;/TextElement&gt;
+						&lt;/Line&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;Barcode&gt;
+								&lt;TextElement&gt;9300633292294&lt;/TextElement&gt;
+							&lt;/Barcode&gt;
+						&lt;/Line&gt;
+						&lt;Line Align=&amp;quot;Center&amp;quot;&gt;
+							&lt;TextElement&gt;9300633292294&lt;/TextElement&gt;
+						&lt;/Line&gt;
+					&lt;/Lines&gt;
+				&lt;/FormattedLayout&gt;
+				
+		</Description>
+              <ScanCode>9300633292294</ScanCode>
+            </IssuesCoupon>
+          </IssuedCoupons>
+          <RewardType>Coupon</RewardType>
+          <PromotionDescription>Docket deals (BWS)</PromotionDescription>
+          <QualifyingSpent>1.69</QualifyingSpent>
+          <TriggerTiming>UponTotal</TriggerTiming>
+        </PromotionSummary>
+        <PromotionSummary>
+          <PromotionID>1001543</PromotionID>
+          <RedemptionQuantity>1</RedemptionQuantity>
+          <TotalRewardAmount>2.00</TotalRewardAmount>
+          <LoyaltyAccount>
+            <LoyaltyProgram>
+              <LoyaltyAccountID>1999</LoyaltyAccountID>
+              <Points Type="PointsEarned">2</Points>
+            </LoyaltyProgram>
+          </LoyaltyAccount>
+          <RewardType>Points</RewardType>
+          <PromotionDescription>EVOLVE BASE NON-MEMBER</PromotionDescription>
+          <QualifyingSpent>0.00</QualifyingSpent>
+          <TriggerTiming>UponTotal</TriggerTiming>
+        </PromotionSummary>
+        <PromotionSummary>
+          <PromotionID>1001544</PromotionID>
+          <RedemptionQuantity>271</RedemptionQuantity>
+          <TotalRewardAmount Type="Reduced">2.71</TotalRewardAmount>
+          <LoyaltyAccount>
+            <LoyaltyProgram>
+              <LoyaltyAccountID>2000</LoyaltyAccountID>
+              <Points Type="Redeemed">2.71</Points>
+            </LoyaltyProgram>
+          </LoyaltyAccount>
+          <RewardType>Points</RewardType>
+          <PromotionDescription>EVOLVE BASE CLEAR</PromotionDescription>
+          <QualifyingSpent>0.00</QualifyingSpent>
+          <TriggerTiming>UponTotal</TriggerTiming>
+        </PromotionSummary>
+      </PromotionsSummary>
+      <r10Ex:IsVoidFuelPromotions>False</r10Ex:IsVoidFuelPromotions>
+    </RetailTransaction>
+    <BusinessDayDate>2020-06-18</BusinessDayDate>
+    <BeginDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:20.116</BeginDateTime>
+    <EndDateTime r10Ex:Offset="10:00:00">2020-06-18T11:55:44.909</EndDateTime>
+    <FoodServiceTransaction>
+      <OrderTime SaleStartType="TakeOut" />
+    </FoodServiceTransaction>
+    <r10Ex:RetailerId>1000</r10Ex:RetailerId>
+    <r10Ex:LPEVer>1.0.0.0</r10Ex:LPEVer>
+  </Transaction>
+</POSLog>
